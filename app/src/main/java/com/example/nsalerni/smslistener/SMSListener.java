@@ -113,8 +113,7 @@ public class SMSListener extends BroadcastReceiver
                      * Create a Toast notification that shows the contents of the message,
                      * along with the sender's phone number.
                      *
-                     * Note: This part has been commented out, as per instructions in task 3.
-                     *       Simply uncomment the following three lines to see the Toast notification.
+                     * Note: Simply comment the following three lines to hide the Toast notification.
                      */
                     int d = Toast.LENGTH_LONG;
                     Toast t = Toast.makeText(context, "Received from: " + sender + " Message: " + messageBody, d);
