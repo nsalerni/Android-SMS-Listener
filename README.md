@@ -14,4 +14,4 @@ To import this project into Android Studio, launch the IDE, click Import Project
 
 After you have successfully imported the project, you may run the app using a built in Emulator or on your own Android device (at your own risk). The application works with Android 2.3.3 or later (was tested on Android 5.0 lollipop).
 
-(c)2014 Nick Salerni, v1.0
+(c)2014-2015 Nick Salerni, v1.0
